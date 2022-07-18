@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: employee-app
-          image: elijahkyule/employee-app-api:v6
+          image: elijahkyule/backend:v2
           ports:
             - containerPort: 8080
           env:   # Setting Enviornmental Variables
